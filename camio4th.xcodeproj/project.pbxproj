@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9146F0C72AEB04DF00EA86FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0C62AEB04DF00EA86FE /* AppDelegate.swift */; };
+		9146F0C92AEB04DF00EA86FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0C82AEB04DF00EA86FE /* SceneDelegate.swift */; };
+		9146F0CB2AEB04DF00EA86FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0CA2AEB04DF00EA86FE /* ViewController.swift */; };
+		9146F0CE2AEB04DF00EA86FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9146F0CC2AEB04DF00EA86FE /* Main.storyboard */; };
+		9146F0D02AEB04E000EA86FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9146F0CF2AEB04E000EA86FE /* Assets.xcassets */; };
+		9146F0D32AEB04E000EA86FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9146F0D12AEB04E000EA86FE /* LaunchScreen.storyboard */; };
+		9146F0DE2AEB04E000EA86FE /* camio4thTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0DD2AEB04E000EA86FE /* camio4thTests.swift */; };
+		9146F0E82AEB04E000EA86FE /* camio4thUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0E72AEB04E000EA86FE /* camio4thUITests.swift */; };
+		9146F0EA2AEB04E000EA86FE /* camio4thUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9146F0E92AEB04E000EA86FE /* camio4thUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9146F0DA2AEB04E000EA86FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9146F0BB2AEB04DF00EA86FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9146F0C22AEB04DF00EA86FE;
+			remoteInfo = camio4th;
+		};
+		9146F0E42AEB04E000EA86FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9146F0BB2AEB04DF00EA86FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9146F0C22AEB04DF00EA86FE;
+			remoteInfo = camio4th;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9146F0C32AEB04DF00EA86FE /* camio4th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = camio4th.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9146F0C62AEB04DF00EA86FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9146F0C82AEB04DF00EA86FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9146F0CA2AEB04DF00EA86FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9146F0CD2AEB04DF00EA86FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9146F0CF2AEB04E000EA86FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9146F0D22AEB04E000EA86FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9146F0D42AEB04E000EA86FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9146F0D92AEB04E000EA86FE /* camio4thTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camio4thTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9146F0DD2AEB04E000EA86FE /* camio4thTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camio4thTests.swift; sourceTree = "<group>"; };
+		9146F0E32AEB04E000EA86FE /* camio4thUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = camio4thUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9146F0E72AEB04E000EA86FE /* camio4thUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camio4thUITests.swift; sourceTree = "<group>"; };
+		9146F0E92AEB04E000EA86FE /* camio4thUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camio4thUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9146F0C02AEB04DF00EA86FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0D62AEB04E000EA86FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0E02AEB04E000EA86FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9146F0BA2AEB04DF00EA86FE = {
+			isa = PBXGroup;
+			children = (
+				9146F0C52AEB04DF00EA86FE /* camio4th */,
+				9146F0DC2AEB04E000EA86FE /* camio4thTests */,
+				9146F0E62AEB04E000EA86FE /* camio4thUITests */,
+				9146F0C42AEB04DF00EA86FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9146F0C42AEB04DF00EA86FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9146F0C32AEB04DF00EA86FE /* camio4th.app */,
+				9146F0D92AEB04E000EA86FE /* camio4thTests.xctest */,
+				9146F0E32AEB04E000EA86FE /* camio4thUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9146F0C52AEB04DF00EA86FE /* camio4th */ = {
+			isa = PBXGroup;
+			children = (
+				9146F0C62AEB04DF00EA86FE /* AppDelegate.swift */,
+				9146F0C82AEB04DF00EA86FE /* SceneDelegate.swift */,
+				9146F0CA2AEB04DF00EA86FE /* ViewController.swift */,
+				9146F0CC2AEB04DF00EA86FE /* Main.storyboard */,
+				9146F0CF2AEB04E000EA86FE /* Assets.xcassets */,
+				9146F0D12AEB04E000EA86FE /* LaunchScreen.storyboard */,
+				9146F0D42AEB04E000EA86FE /* Info.plist */,
+			);
+			path = camio4th;
+			sourceTree = "<group>";
+		};
+		9146F0DC2AEB04E000EA86FE /* camio4thTests */ = {
+			isa = PBXGroup;
+			children = (
+				9146F0DD2AEB04E000EA86FE /* camio4thTests.swift */,
+			);
+			path = camio4thTests;
+			sourceTree = "<group>";
+		};
+		9146F0E62AEB04E000EA86FE /* camio4thUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9146F0E72AEB04E000EA86FE /* camio4thUITests.swift */,
+				9146F0E92AEB04E000EA86FE /* camio4thUITestsLaunchTests.swift */,
+			);
+			path = camio4thUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9146F0C22AEB04DF00EA86FE /* camio4th */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9146F0ED2AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4th" */;
+			buildPhases = (
+				9146F0BF2AEB04DF00EA86FE /* Sources */,
+				9146F0C02AEB04DF00EA86FE /* Frameworks */,
+				9146F0C12AEB04DF00EA86FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camio4th;
+			productName = camio4th;
+			productReference = 9146F0C32AEB04DF00EA86FE /* camio4th.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9146F0D82AEB04E000EA86FE /* camio4thTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9146F0F02AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4thTests" */;
+			buildPhases = (
+				9146F0D52AEB04E000EA86FE /* Sources */,
+				9146F0D62AEB04E000EA86FE /* Frameworks */,
+				9146F0D72AEB04E000EA86FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9146F0DB2AEB04E000EA86FE /* PBXTargetDependency */,
+			);
+			name = camio4thTests;
+			productName = camio4thTests;
+			productReference = 9146F0D92AEB04E000EA86FE /* camio4thTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9146F0E22AEB04E000EA86FE /* camio4thUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9146F0F32AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4thUITests" */;
+			buildPhases = (
+				9146F0DF2AEB04E000EA86FE /* Sources */,
+				9146F0E02AEB04E000EA86FE /* Frameworks */,
+				9146F0E12AEB04E000EA86FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9146F0E52AEB04E000EA86FE /* PBXTargetDependency */,
+			);
+			name = camio4thUITests;
+			productName = camio4thUITests;
+			productReference = 9146F0E32AEB04E000EA86FE /* camio4thUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9146F0BB2AEB04DF00EA86FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9146F0C22AEB04DF00EA86FE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					9146F0D82AEB04E000EA86FE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9146F0C22AEB04DF00EA86FE;
+					};
+					9146F0E22AEB04E000EA86FE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9146F0C22AEB04DF00EA86FE;
+					};
+				};
+			};
+			buildConfigurationList = 9146F0BE2AEB04DF00EA86FE /* Build configuration list for PBXProject "camio4th" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9146F0BA2AEB04DF00EA86FE;
+			productRefGroup = 9146F0C42AEB04DF00EA86FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9146F0C22AEB04DF00EA86FE /* camio4th */,
+				9146F0D82AEB04E000EA86FE /* camio4thTests */,
+				9146F0E22AEB04E000EA86FE /* camio4thUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9146F0C12AEB04DF00EA86FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146F0D32AEB04E000EA86FE /* LaunchScreen.storyboard in Resources */,
+				9146F0D02AEB04E000EA86FE /* Assets.xcassets in Resources */,
+				9146F0CE2AEB04DF00EA86FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0D72AEB04E000EA86FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0E12AEB04E000EA86FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9146F0BF2AEB04DF00EA86FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146F0CB2AEB04DF00EA86FE /* ViewController.swift in Sources */,
+				9146F0C72AEB04DF00EA86FE /* AppDelegate.swift in Sources */,
+				9146F0C92AEB04DF00EA86FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0D52AEB04E000EA86FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146F0DE2AEB04E000EA86FE /* camio4thTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9146F0DF2AEB04E000EA86FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9146F0EA2AEB04E000EA86FE /* camio4thUITestsLaunchTests.swift in Sources */,
+				9146F0E82AEB04E000EA86FE /* camio4thUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9146F0DB2AEB04E000EA86FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9146F0C22AEB04DF00EA86FE /* camio4th */;
+			targetProxy = 9146F0DA2AEB04E000EA86FE /* PBXContainerItemProxy */;
+		};
+		9146F0E52AEB04E000EA86FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9146F0C22AEB04DF00EA86FE /* camio4th */;
+			targetProxy = 9146F0E42AEB04E000EA86FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9146F0CC2AEB04DF00EA86FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9146F0CD2AEB04DF00EA86FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9146F0D12AEB04E000EA86FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9146F0D22AEB04E000EA86FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9146F0EB2AEB04E000EA86FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9146F0EC2AEB04E000EA86FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9146F0EE2AEB04E000EA86FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = camio4th/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4th;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9146F0EF2AEB04E000EA86FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = camio4th/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4th;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9146F0F12AEB04E000EA86FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4thTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camio4th.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/camio4th";
+			};
+			name = Debug;
+		};
+		9146F0F22AEB04E000EA86FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4thTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/camio4th.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/camio4th";
+			};
+			name = Release;
+		};
+		9146F0F42AEB04E000EA86FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4thUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = camio4th;
+			};
+			name = Debug;
+		};
+		9146F0F52AEB04E000EA86FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9BKVZ8679;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ski.camio4thUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = camio4th;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9146F0BE2AEB04DF00EA86FE /* Build configuration list for PBXProject "camio4th" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9146F0EB2AEB04E000EA86FE /* Debug */,
+				9146F0EC2AEB04E000EA86FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9146F0ED2AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4th" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9146F0EE2AEB04E000EA86FE /* Debug */,
+				9146F0EF2AEB04E000EA86FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9146F0F02AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4thTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9146F0F12AEB04E000EA86FE /* Debug */,
+				9146F0F22AEB04E000EA86FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9146F0F32AEB04E000EA86FE /* Build configuration list for PBXNativeTarget "camio4thUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9146F0F42AEB04E000EA86FE /* Debug */,
+				9146F0F52AEB04E000EA86FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9146F0BB2AEB04DF00EA86FE /* Project object */;
+}
